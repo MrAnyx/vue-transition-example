@@ -1,7 +1,7 @@
 <template>
   <section>
     <button @click="toggleDiv()">{{ showDiv ? 'Hide' : 'Show' }}</button>
-    <transition name="expand">
+    <transition name="fade">
       <div id="container" v-show="showDiv">
         Modi ipsam facere repellendus et rerum laudantium repellendus sint.
         Ratione iusto saepe pariatur amet reprehenderit atque. Sit excepturi
@@ -27,26 +27,29 @@ export default defineComponent({
 </script>
 
 <style lang="scss">
+$transition-duration: 0.5s;
+
 #container {
   font-family: Inter, Roboto, Oxygen, Fira Sans, Helvetica Neue, sans-serif;
   margin-top: 20px;
   line-height: 22px;
 }
 
-.expand-enter-from,
-.expand-leave-to {
+.fade-enter-from,
+.fade-leave-to {
   opacity: 0;
   transform: translateY(-20px);
 }
 
-.expand-enter-to,
-.expand-leave-from {
+.fade-enter-to,
+.fade-leave-from {
   opacity: 1;
   transform: translateY(0px);
 }
 
-.expand-enter-active,
-.expand-leave-active {
-  transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity $transition-duration ease-in-out,
+    transform $transition-duration ease-in-out;
 }
 </style>
