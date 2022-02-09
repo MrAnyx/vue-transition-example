@@ -5,19 +5,6 @@
       <div id="container" v-show="showDiv">
         Modi ipsam facere repellendus et rerum laudantium repellendus sint.
         Ratione iusto saepe pariatur amet reprehenderit atque. Sit excepturi
-        ducimus quam sit sequi nesciunt ratione. Id qui a sequi ut iusto
-        suscipit consectetur. Saepe dolores quos ab dolorum sit sit quaerat
-        facilis.Rerum autem minus ipsa tempore consequatur. Molestiae ab fugiat
-        cupiditate quas in nostrum explicabo et. Minus blanditiis voluptatibus
-        quia. Quod ducimus qui numquam. Possimus ut qui sed eos excepturi
-        saepe.Natus iusto dolorem est voluptatem. Illum iusto culpa
-        necessitatibus iusto exercitationem magni beatae nesciunt. Dolores et
-        modi accusantium ipsam tempora. Voluptas beatae asperiores enim
-        unde.Consequatur ut rerum nobis et. Voluptas aut aut distinctio
-        molestiae odit eum eum quod. Nemo qui veritatis eius est in possimus
-        praesentium dolor. Consectetur consectetur aliquid reiciendis odio
-        doloremque.Adipisci id voluptatibus explicabo expedita quia. Ut hic
-        sapiente commodi delectus dolor. Mollitia a quaerat at molestiae.
       </div>
     </transition>
   </section>
